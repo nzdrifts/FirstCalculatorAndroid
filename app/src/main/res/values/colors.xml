@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="button_backround">#f5ce9f</color>
+    <color name="buttons_background">#ffffdd</color>
+    <color name="arithmetic_buttons">#f1af60</color>
+    <color name="top_box">#fff0d2</color>
+
+</resources>
