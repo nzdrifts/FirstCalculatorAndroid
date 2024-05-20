@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFDD"
+    android:background="@color/app_backround"
     android:padding="10dp"
     tools:context=".MainActivity">
 
@@ -27,12 +27,6 @@
             android:layout_weight="1"
             android:text="" />
 
-        <Button
-            android:id="@+id/clearButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/arithmetic_button"
-            android:text="@string/clear" />
 
     </LinearLayout>
 
@@ -57,7 +51,6 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/arithmetic_button"
                 android:layout_margin="5dp"
-                android:padding="10dp"
                 android:text="AC" />
 
             <Button
@@ -93,7 +86,7 @@
                 android:id="@+id/button_7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:text="7" />
@@ -102,7 +95,7 @@
                 android:id="@+id/button_8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="8" />
 
@@ -110,7 +103,7 @@
                 android:id="@+id/button_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="9" />
 
@@ -131,7 +124,7 @@
                 android:id="@+id/button_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:text="4" />
@@ -140,17 +133,17 @@
                 android:id="@+id/button_5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="5" />
 
             <Button
-                android:id="@+id/button_5"
+                android:id="@+id/button_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
-                android:text="5" />
+                android:text="6" />
 
             <Button
                 android:id="@+id/button_subtract"
@@ -169,7 +162,7 @@
                 android:id="@+id/button_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="1" />
 
@@ -177,7 +170,7 @@
                 android:id="@+id/button_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="2" />
 
@@ -185,7 +178,7 @@
                 android:id="@+id/button_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="3" />
 
@@ -215,7 +208,7 @@
                 android:id="@+id/button_0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
 
                 android:text="0" />
@@ -224,7 +217,7 @@
                 android:id="@+id/button_decimal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/arithmetic_button"
+                android:background="@drawable/roundedbutton"
                 android:layout_margin="5dp"
                 android:text="." />
 
