@@ -67,14 +67,21 @@ public class MainActivity extends AppCompatActivity {
         // equals button
         this.btnEquals.setOnClickListener((v)->{
             String txtValue = this.tvValue.getText().toString();
+
             // remove operation at end if it is present
             if(txtValue.endsWith(" ")) txtValue=txtValue.substring(0,txtValue.length()-3);
+            //remove "-" at end if is present
+            if(txtValue.endsWith("-")) txtValue=txtValue.substring(0,txtValue.length()-1);
+
             // append last_operation
             String s = "Last Operation: ";
             this.tvLastOperation.setText(s.concat(txtValue));
+
             // evaluated the value of operations currently displayed
             double result = EvaluateOperations.evaluatePriority(txtValue);
+
             // set text to result
+            result = (int) result;
             this.tvValue.setText(String.valueOf(result));
         });
 

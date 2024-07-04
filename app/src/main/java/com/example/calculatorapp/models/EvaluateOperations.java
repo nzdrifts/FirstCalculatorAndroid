@@ -43,4 +43,6 @@ public class EvaluateOperations {
     private static String joinList(String[] list, int start, int end){
         return String.join(" ", Arrays.asList(list).subList(start,end));
     }
+
+
 }
